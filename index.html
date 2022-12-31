@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>calculator</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+  <div class="box"> 
+    <div class="error">invilad format used .</div>
+    <form name='myForm'>
+      <input type='text' name='name' value='' class="inp" disabled>
+  </form>  
+  <div class="div">
+    <div>
+    
+    </div>
+    <div>
+      <i class="fa fa-remove"></i>
+    </div>
+  </div>
+ <div class="xazi"></div>
+ <div class="divboss">
+   <div class="div-1 math">
+     <div class="red" value="C">C</div>
+     <div class="orange3" value="()">()</div>
+     <div class="orange2" value="^">^</div>
+     <div class="orange" value="/">/</div>
+   </div>
+   <div class="div-2 math">
+     <div class="num" value="7">7</div>
+     <div class="num" value="8">8</div>
+     <div class="num" value="9">9</div>
+     <div class="orange rotate" value="*">*</div>
+   </div>
+   <div class="div-3 math">
+     <div class="num" value="4">4</div>
+     <div class="num" value="5">5</div>
+     <div class="num" value="6">6</div>
+     <div class="orange" value="-">-</div>
+   </div>
+   <div class="div-4 math">
+     <div class="num" value="1">1</div>
+     <div class="num" value="2">2</div>
+     <div class="num" value="3">3</div>
+     <div class="orange" value="+">+</div>
+   </div>
+   <div class="div-5 math">
+    <div class="xddd" value="+/-">%</div>
+    <div class="num" value="0">0</div>
+    <div class="num" value=".">.</div>
+    <div onclick="equality()" class="equality" value="=">=</div>
+  </div>
+ </div>
+ </div>
+</body>
+</html>

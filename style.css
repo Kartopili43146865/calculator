@@ -1,0 +1,112 @@
+body {
+    font-size: 15pt;
+    background-color: #000000F5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xazi {
+  background-color: #343434;
+  width: 96%;
+  height: 2px;
+  margin-left: 2%
+}
+.div div {
+  width: 50px;
+  height: 50px;
+ 
+}
+.div div .fa-remove {
+  color: orange; 
+  font-size: 40px;
+  cursor: pointer;
+  cursor: pointer;
+}
+.div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.math {
+  display: flex;
+  
+}
+.math div {
+  padding: 40px;
+  font-size: 35px;
+  background-color: #1B1B1BE8;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+.box {
+  width: 400px;
+  
+  border-radius: 6px;
+}
+.equality {
+  font-size: 50px!important;
+  background-color: #FF9400!important;
+}
+.orange,.orange2,.orange3 {
+  color: #FF9400!important;
+}
+.red {
+  color: red!important;
+}
+.math div:active {
+  font-size: 30px;
+  background-color: #FFFFFF4A;
+}
+.equality:active  {
+  background-color:  #FFB247!important;
+  font-size: 35px!important;
+}
+@media(min-width: 600px){
+  .box {
+    border: 1px solid #FFFFFF7D;
+  }
+}
+.inp {
+border: none;
+color: white;
+cursor: default;
+text-align: right;
+font-size: 55px;
+transform: translateY(70px);
+width: 99%;
+height: 90px;
+background: none;
+overflow-x: scroll;
+user-select: none;
+}
+.wiii {
+  font-size: 45px;
+}
+.divboss div div {
+cursor: pointer;
+}
+.error {
+  position: relative;
+  top: 700px;
+  left: 90px;
+  width: 220px;
+  height: 30px;
+  border-radius: 20px;
+  background: rgb(43, 43, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  user-select: none;
+  transition: 1s;
+  opacity: 0;
+}
